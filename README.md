@@ -20,7 +20,9 @@ Then import the module in your project. For example:
 ```
 import AnimatedNavbar from 'animated-navbar';
 
-new AnimatedNavbar();
+AnimatedNavbar.init({
+	'header' => '.header'
+});
 ```
 
 

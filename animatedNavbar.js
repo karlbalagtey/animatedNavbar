@@ -1,11 +1,13 @@
 import $ from 'jquery';
 
-class AnimatedHeader {
-	constructor() {
+class AnimatedNavbar {
+	constructor(data) {
+		this.header = data.header;
+
 		this.didScroll;
 		this.lastScrollTop = 0;
 		this.delta = 5;
-		this.headerHeight = $('.header').outerHeight();
+		this.headerHeight = data.header.outerHeight();
 		this.scrollTop;
 
 		this.events();
@@ -29,7 +31,7 @@ class AnimatedHeader {
 
 	hasScrolled() {
 		const that = this,
-			  $header = $('.header');
+			  $header = that.header;
 
 		if(Math.abs(that.lastScrollTop - that.scrollTop) <= that.delta)
 			return;
@@ -49,7 +51,7 @@ class AnimatedHeader {
 }
 
 export default {
-	init() {
-		this.animatedHeader = new AnimatedHeader();
+	init(data) {
+		this.animatedNavbar = new AnimatedNavbar(data);
 	}
 }

@@ -18,9 +18,9 @@
   "author": "Karl Mark Balagtey",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karlbalagtey/touchLoader/issues"
+    "url": "https://github.com/karlbalagtey/animatedNavbar/issues"
   },
-  "homepage": "https://github.com/karlbalagtey/touchLoader#readme",
+  "homepage": "https://github.com/karlbalagtey/animatedNavbar#readme",
   "devDependencies": {
     "jquery": "^3.2.1"
   }
