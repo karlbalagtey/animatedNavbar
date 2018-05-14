@@ -21,9 +21,11 @@ Then import the module in your project. For example:
 import AnimatedNavbar from 'animated-navbar';
 
 AnimatedNavbar.init({
-	'header' => '.header'
+    'header' => '.header'
 });
 ```
+
+Use CSS classes `is-up` and `is-down` to hide and show navbar.
 
 
 
