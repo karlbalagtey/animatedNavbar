@@ -1,0 +1,27 @@
+{
+  "name": "animated-navbar",
+  "version": "1.0.0",
+  "description": "Animate navbar on scroll",
+  "main": "animatedNavbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlbalagtey/animatedNavbar.git"
+  },
+  "keywords": [
+    "touch",
+    "hover",
+    "es6"
+  ],
+  "author": "Karl Mark Balagtey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlbalagtey/touchLoader/issues"
+  },
+  "homepage": "https://github.com/karlbalagtey/touchLoader#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
